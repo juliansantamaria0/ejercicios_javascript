@@ -1,3 +1,4 @@
+// Función para verificar si una secuencia de salida de frutas es posible dada una secuencia de entrada.
 function frutaEmpacadaCorrectamente(entrada, salida) {
     if (entrada.length !== salida.length) {
         return false;
@@ -44,5 +45,5 @@ function verificarFrutas() {
     alert(resultado ? "La secuencia de salida es válida." : "La secuencia de salida no es válida.");
 }
 
-// Ejecutar la función al cargar la página (puedes llamarla desde un botón o evento)
+// Ejecutar la función al cargar la página (puedes llamarla desde un boton o evento)
 verificarFrutas();
